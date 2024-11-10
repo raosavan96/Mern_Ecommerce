@@ -46,7 +46,7 @@ exports.userLoginController = async (req, res) => {
       };
 
       res.cookie("token", token, tokenOption).status(200).json({
-        message: "Login Successfully",
+        message: "Login Successfully", 
         data: token,
         success: true,
         error: false
